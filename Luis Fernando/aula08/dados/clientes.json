@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Mario Pereira",
+        "email": "mario.pereira@email.com",
+        "telefone": "123-456-7890",
+        "senha": "senha123"
+    },
+    {
+        "id": 2,
+        "name": "Carlos Souza",
+        "email": "carlos.souza@email.com",
+        "telefone": "098-765-4321",
+        "senha": "senha456"
+    },
+    {
+        "id": 3,
+        "name": "Joice Silva",
+        "email": "joice.silva@email.com",
+        "telefone": "555-555-5555",
+        "senha": "senha789"
+    }
+]

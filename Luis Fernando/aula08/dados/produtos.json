@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nome": "Chia Premium",
+    "preco": 35
+  },
+  {
+    "id": 2,
+    "nome": "Psyllium",
+    "preco": 45
+  }
+]

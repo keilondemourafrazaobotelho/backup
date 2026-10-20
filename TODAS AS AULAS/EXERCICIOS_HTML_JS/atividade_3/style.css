@@ -1,0 +1,47 @@
+body { 
+    font-family: Arial; 
+    background: #f0f0f0; 
+    margin: 40px; 
+}
+
+center {
+     background: white; 
+     padding: 20px; 
+     width: 320px;
+      margin: auto; 
+      border: 1px solid #ccc; 
+      border-radius: 10px;
+      border-color: black;
+      
+
+}
+
+label {
+     display: inline-block;
+      width: 140px;
+       text-align: right;
+        margin: 5px; 
+}
+
+input, select { 
+    width: 140px; 
+    padding: 3px; 
+}
+
+button { 
+    padding: 5px 15px; 
+    background: rgb(16, 125, 189); 
+    color: rgb(241, 239, 239); 
+    border: none;
+     margin-top: 10px;
+      cursor: pointer; 
+}
+
+.resultado {
+     text-align: left; 
+}
+
+.destaque {
+     font-weight: bold;
+      color:    rgb(0, 0, 0); 
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "data":"2026-06-01",
+        "paciente":"Jesuéla",
+        "peso":130,
+        "altura":1.40
+    },
+    {
+        "id":2,
+        "data":"2026-06-10",
+        "paciente":"Astrononte",
+        "peso":45,
+        "altura":1.90
+    },
+    {
+        "id":3,
+        "data":"2026-10-01",
+        "paciente":"JubsTchola",
+        "peso":450,
+        "altura":4.10
+    }
+]

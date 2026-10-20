@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "nome":"tabajara",
+        "vitorias":5,
+        "empates":1,
+        "derrotas":0
+    },
+      {
+        "id":2,
+        "nome":"RuimDeBola",
+        "vitorias":1,
+        "empates":3,
+        "derrotas":4
+    },
+      {
+        "id":3,
+        "nome":"PernaDePau",
+        "vitorias":2,
+        "empates":2,
+        "derrotas":2
+    }
+]
