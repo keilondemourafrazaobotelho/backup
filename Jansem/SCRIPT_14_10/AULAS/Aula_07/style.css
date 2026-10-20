@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4b5563;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+#formPedido {
+    background-color: #c4c4c4;
+    width: 20%;  /* Mantido os 20% para ser responsivo */
+    min-width: 300px; /* Evita que o formulário fique esmagado em telas menores */
+    margin: 10px auto;
+    padding: 40px;
+    box-shadow: 10px 4px 6px rgba(17, 17, 22, 0.815);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#formPedido label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px; /* Ajustado de 0 para 5px para desgrudar do input */
+    font-weight: bold;
+    color: #000000;
+}
+
+#formPedido input, 
+#formPedido select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #090c13;
+    border-radius: 10px;
+    box-sizing: border-box;    
+    margin-bottom: 20px;
+}
+#formPedido button {
+    width: 100%;               
+    background-color: #151516; 
+    color: #ffffff;            
+    font-size: 18px;           
+    font-weight: bold;         
+    padding: 12px;            
+    border: none;              
+    border-radius: 10px;       
+    cursor: pointer;           
+    transition: background-color 0.3s ease; 
+}
+
+
+#formPedido button:hover {
+    background-color: #366aa5;  
+}   
+#resultado {
+    width: 350px;
+    margin: 10px auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 0 solid #233dcf; 
+    background-color: #f8faff; 
+    box-shadow: 0 4px 6px rgb(13, 14, 14);
+}

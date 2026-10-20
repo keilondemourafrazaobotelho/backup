@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+<body>
+
+    <h1>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTEIRO</h1>
+    <form action ="" method="" >
+    <strong>
+        <label for="login">Login</label>
+        <input type="text" id="Login">                          
+        <br><br>
+        <label for="senha">Senha</label></label>
+        <input type="password" id="Senha"> 
+        <br><br>    
+        <label for="status">Status</label></label>
+        <select id="status">
+            <option value="ativo">Ativo</option>
+            <option value="inativo">Inativo</option>
+        </select>
+        <br><br>
+        
+    <legend>Tipo       
+        <input type="radio" id="tecnico" name="tipo" value="Técnico">
+        <label for="técnico">Técnico</label>
+        <input type="radio" id="professor" name="tipo" value="Professor">
+        <label for="professor">Professor</label>
+        <input type="radio" id="aluno" name="tipo" value="Aluno">
+        <label for="Aluno">Aluno</label>
+    </legend>
+        <br> 
+        <label for="date">Data  Criação</label>
+        <input type="text" id="date">
+          
+         <br><br>
+    <legend>Perfil
+        <input type="radio" id="convidado" name="perfil" value="Convidado">
+        <label for="convidado">Convidado</label>
+        <input type="radio" id="administrador" name="perfil" value="Administrador">
+        <label for="administrador">Administrador</label>     
+    </legend>
+
+         <br><br>
+         <h2>Observações</h2>
+         <textarea id="observacao" rows="10" cols="50"></textarea>
+        <h2>Módulos</h2>                                  
+    <legend> 
+        <input type="checkbox" id="compras" name="modulos" value="Compras">
+        <label for="compras">Compras</label>
+        <input type="checkbox" id="Biblioteca" name="modulos" value="Biblioteca">
+        <label for="biblioteca">Biblioteca</label>
+        <input type="checkbox" id="Academico" name="modulos" value="academico">  
+        <label for="academico">Acadêmico</label>    
+    </legend>
+    
+    <legend>
+        <input type="checkbox" id="documentacao" name="modulos" value="documentacao">
+        <label for="documentacao">Documentação</label>
+        <input type="checkbox" id="recursos humanos" name="modulo" value="recursos humanos">
+        <label for="recursos">Recursos Humanos</label>
+    </legend> 
+         
+        <br>
+        <input type="submit" value="Cadastrar">        
+        <input type="reset" value="Excluir">
+		
+	
+
+    </strong>  
+    </form>
+</body>
+</html> 

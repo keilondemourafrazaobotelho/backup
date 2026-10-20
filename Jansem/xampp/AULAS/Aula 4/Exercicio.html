@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+     <h1>Calculadora</h1>
+    <label for="numero1">Primeiro número:</label>
+    <input type="number" id="numero1">
+    <br><br>
+
+    <label for="numero2">Segundo número:</label>
+    <input type="number" id="numero2">
+    <br><br>
+
+  
+    <button onclick="somar()">Somar</button>
+    <button onclick="subtrair()">Subtrair</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button>
+    
+    <p id="resultado"></p>
+
+
+    <script>
+
+        function obterNumeros() {
+            const campoNumero1 = Number(document.getElementById("numero1").value);
+            const campoNumero2 = Number(document.getElementById("numero2").value);
+            return { campoNumero1, campoNumero2 };
+        }
+
+        function mostrarResultado(texto) {
+            document.getElementById("resultado").textContent ="Resultado: " + texto;
+        }    
+        
+        function somar(){
+            const {campoNumero1, campoNumero2} = obterNumeros();
+            const resultado = campoNumero1 + campoNumero2
+            mostrarResultado(resultado);
+        }
+
+         function subtrair(){
+            const {campoNumero1, campoNumero2} = obterNumeros();
+            const resultado = campoNumero1 - campoNumero2;
+            mostrarResultado(resultado);
+         }    
+        function multiplicar(){
+            const {campoNumero1, campoNumero2} = obterNumeros();
+            const resultado = campoNumero1 * campoNumero2;
+            mostrarResultado(resultado);
+        }
+        
+         function dividir(){
+            const { campoNumero1, campoNumero2 } = obterNumeros();
+            
+        if (campoNumero2 === 0) {
+        
+            mostrarResultado("Não é foi possivel dividir por ZERO!");
+        }else {
+            const resultado = campoNumero1 / campoNumero2;
+            mostrarResultado  (resultado); 
+        }  
+
+        }   
+    </script>     
+</body>
+</html>
